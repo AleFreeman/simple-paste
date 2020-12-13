@@ -1,0 +1,37 @@
+header {
+    background-color: #013d61;
+    color: #ffffff;
+    padding: 20px 20px 20px 40px;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+main {
+    padding: 20px 20px 20px 20px;
+    box-align: left;
+    float: left;
+    width: 55%;
+}
+
+.asideright {
+    padding: 20px 20px 20px 20px;
+    box-align: right;
+    float: right;
+    width: 40%;
+}
+
+.container {
+    margin-left: 10px;
+}
+
+.backtohome {
+    box-align: right;
+    float: right;
+    width: 40%;
+}
+
+h1 {
+    font-family: 'segoe ui';
+}

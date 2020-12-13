@@ -1,0 +1,19 @@
+{% load static %}
+<head>
+    <title>{{ paste.title }} (#{{ paste.id }})</title>
+    <link rel="stylesheet" href="{% static 'css/paste.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<header>
+    <h1>SimplePaste</h1>
+    <div class="backtohome">
+        <h3><a href="/paste/">Back to Home</a></h3>
+    </div>
+</header>
+
+<br>
+<main>
+    <h1>{{ paste.title }}</h1>
+    <p>{{ paste.paste }}</p>
+</main>
+
